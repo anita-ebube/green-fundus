@@ -1,10 +1,11 @@
 import './App.css'
-import { Services } from './components/Services/page'
+import { Values } from './components/Values/page'
 import { Navbar } from './components/Navbar/page'
-import { About } from './components/About/page'
+import { Services } from './components/Services/page'
 import { EmblaCarousel } from './components/Home/EmblaCarousel'
 import { Clients } from './components/client/page'
 import { Mission } from './components/mission/page'
+import { Gallery } from './components/Gallery/page';
 import { Footer } from './components/Footer/page'
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
         <Navbar />
         <EmblaCarousel />
         <Mission />
-        <About />
-        <Clients />
         <Services />
+        <Clients />
+        <Values />
+        <Gallery />
         <Footer />
       </div>
     </>

@@ -28,24 +28,28 @@ export const Navbar = () => {
     const navItems = [
         {
             link: "About Us",
-            path: "/About Us"
+            path: "about"
             
         },
         {
             link: "Vision",
-            path: "/Vision"
+            path: "vision"
         },
         {
             link: "Services",
-            path: "/Services"
+            path: "services"
+        },
+        {
+            link:"Gallery",
+            path: "gallery"
         },
         {
             link: "Product",
-            path: "/product"
+            path: "product"
         },
         {
             link: "Core Values",
-            path: "/Core Values"
+            path: "values"
         },
     ];
     return (
@@ -53,7 +57,7 @@ export const Navbar = () => {
             <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0  bg-white duration-300" : ""} `}>
                 <div className='flex justify-between items-center text-base gap-3'>
                     <a href="#" className='text-2xl font-semibold flex items-center space-x-3'><img src={Logo} alt="" className='h-10 inline-block items-center' /></a>
-                    <ul className='md:flex space-x-12 hidden'>
+                    <ul className='md:flex space-x-12 hidden cursor-pointer'>
                         {
                             navItems.map(({ link, path }) => (<Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block text-base text-brandPrimary hover:text-brandSecondary first:font-medium'>{link}</Link>
                             ))}
