@@ -1,16 +1,14 @@
 import React from 'react'
-import Logo from "../../assets/images/logo.png"
+import Logo from "../../assets/images/logo-footer.png"
 export const Footer = () => {
     return (
         <div>
-
-
             <footer class="bg-white dark:bg-brandPrimary">
                 <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div class="md:flex md:justify-between">
                         <div class="mb-6 md:mb-0">
-                            <a href="https://flowbite.com/" class="flex items-center">
-                                <img src={Logo} class="h-10 me-3" alt="FlowBite Logo" />
+                            <a href="#navbar" class="flex items-center">
+                                <img src={Logo} class="h-10 me-3" alt="GreenFundus Logo" />
                             </a>
                         </div>
                         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -18,10 +16,10 @@ export const Footer = () => {
                                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About Us</h2>
                                 <ul class="text-neutralSilver  font-medium">
                                     <li class="mb-4">
-                                        <a href="https://flowbite.com/" class="hover:underline">Our Team</a>
+                                        <a href="/" class="hover:underline">Our Team</a>
                                     </li>
                                     <li>
-                                        <a href="https://tailwindcss.com/" class="hover:underline">Our Client </a>
+                                        <a href="/" class="hover:underline">Our Client </a>
                                     </li>
                                 </ul>
                             </div>
@@ -29,10 +27,10 @@ export const Footer = () => {
                                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                                 <ul class="text-neutralSilver font-medium">
                                     <li class="mb-4">
-                                        <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Vission</a>
+                                        <a href="/" class="hover:underline ">Vission</a>
                                     </li>
                                     <li>
-                                        <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Mission</a>
+                                        <a href="/" class="hover:underline">Mission</a>
                                     </li>
                                 </ul>
                             </div>

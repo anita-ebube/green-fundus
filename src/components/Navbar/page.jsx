@@ -40,6 +40,10 @@ export const Navbar = () => {
             path: "services"
         },
         {
+            link: "Core Values",
+            path: "values"
+        },
+        {
             link:"Gallery",
             path: "gallery"
         },
@@ -47,13 +51,10 @@ export const Navbar = () => {
             link: "Product",
             path: "product"
         },
-        {
-            link: "Core Values",
-            path: "values"
-        },
+        
     ];
     return (
-        <header className='w-full bg-neutralSilver md:bg-white fixed top-0 left-0 right-0'>
+        <header id='navbar' className='w-full bg-neutralSilver md:bg-white fixed top-0 left-0 right-0'>
             <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0  bg-white duration-300" : ""} `}>
                 <div className='flex justify-between items-center text-base gap-3'>
                     <a href="#" className='text-2xl font-semibold flex items-center space-x-3'><img src={Logo} alt="" className='h-10 inline-block items-center' /></a>
