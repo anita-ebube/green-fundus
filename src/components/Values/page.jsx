@@ -39,7 +39,7 @@ export const Values = () => {
         
     ]
     return (
-        <div id="values" className='md:px-14 px-4 py-16 max-w-screen-2xl mx-auto'>
+        <div id="values" className='md:px-14 px-4 py-5 max-w-screen-2xl mx-auto'>
             
 
             <div className='mt-20 md:w-1/2 mx-auto text-center'>

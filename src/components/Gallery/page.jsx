@@ -9,7 +9,6 @@ import SlideImg1 from '../../assets/images/gallery/slide_2.jpg';
 import SlideImg3 from '../../assets/images/gallery/slide_3.jpg';
 import SlideImg4 from '../../assets/images/gallery/slide_4.jpg';
 import SlideImg5 from '../../assets/images/gallery/slide_5.jpg';
-// import SlideImg6 from '../../assets/images/gallery/slide_6.jpg'
 import SlideImg7 from '../../assets/images/gallery/slide_7.jpg';
 import SlideImg8 from '../../assets/images/gallery/slide_8.jpg';
 import SlideImg9 from '../../assets/images/gallery/slide_9.jpg';
@@ -46,20 +45,17 @@ export const Gallery = () => {
                     <img src={SlideImg1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={SlideImg2} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
                     <img src={SlideImg3} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={SlideImg4} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
+                    <img src={SlideImg2} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
                     <img src={SlideImg5} alt="" />
                 </SwiperSlide>
-                {/* <SwiperSlide>
-                    <img src={SlideImg6} alt="" />
-                </SwiperSlide> */}
                 <SwiperSlide>
                     <img src={SlideImg7} alt="" />
                 </SwiperSlide>

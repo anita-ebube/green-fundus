@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --white: #ffffff;
+  --bg: #f5f5f5;
+}
 
 .embla {
     overflow: hidden;
@@ -14,11 +18,7 @@
   }
 
 
-:root {
-  --primary: #6a59ff;
-  --white: #ffffff;
-  --bg: #f5f5f5;
-}
+
 
 html {
   scroll-behavior: smooth;

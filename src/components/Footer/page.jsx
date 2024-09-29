@@ -3,7 +3,7 @@ import Logo from "../../assets/images/logo-footer.png"
 export const Footer = () => {
     return (
         <div>
-            <footer class="bg-white dark:bg-brandPrimary">
+            <footer class="bg-white dark:bg-brandPrimary mt-14">
                 <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div class="md:flex md:justify-between">
                         <div class="mb-6 md:mb-0">
