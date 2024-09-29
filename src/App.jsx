@@ -17,9 +17,10 @@ function App() {
         <EmblaCarousel />
         <Mission />
         <Services />
-        <Clients />
+        
         <Values />
         <Gallery />
+        <Clients />
         <Footer />
       </div>
     </>
