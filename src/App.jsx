@@ -1,30 +1,23 @@
-import './App.css'
-import { Values } from './components/Values/page'
-import { Navbar } from './components/Navbar/page'
-import { Services } from './components/Services/page'
-import { EmblaCarousel } from './components/Home/EmblaCarousel'
-import { Clients } from './components/client/page'
-import { Mission } from './components/mission/page'
-import { Gallery } from './components/Gallery/page';
-import { Footer } from './components/Footer/page'
+import './App.css';
+import { EmblaCarousel } from './pages/Home/EmblaCarousel';
+import { Gallery } from './pages/Gallery/page';
+import { Footer } from './components/Footer/page';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { About } from './pages/about'; 
+import { Product } from './pages/Product/page';
 
 function App() {
-
   return (
-    <>
-      <div>
-        <Navbar />
-        <EmblaCarousel />
-        <Mission />
-        <Services />
-        
-        <Values />
-        <Gallery />
-        <Clients />
-        <Footer />
-      </div>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<EmblaCarousel />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/product" element={<Product />} />
+        {/* Add footer or other components as needed */}
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

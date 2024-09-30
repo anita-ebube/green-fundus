@@ -7,8 +7,8 @@ export const Services = () => {
     return (
         <div id='services'>
             <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8'>
-                <h4 className='text-4xl text-neutralGrey font-semibold text-center mt-20'>Our Services</h4>
-                <p className='text-neutralGrey text-center mb-20'>GreenFundus offers the following services</p>
+                <h4 className='text-4xl text-neutralGrey font-semibold text-center my-20'>Our Services</h4>
+                {/* <p className='text-neutralGrey text-center mb-20'>GreenFundus offers the following services</p> */}
 
                 {/* First Service */}
                 <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-start items-start gap-12'>

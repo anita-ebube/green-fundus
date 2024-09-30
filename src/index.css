@@ -17,6 +17,14 @@
     min-width: 0;
   }
 
+  .embla {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex;
+}
+
 
 
 
