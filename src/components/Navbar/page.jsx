@@ -65,11 +65,11 @@ export const Navbar = () => {
                         </button>
                     </div>
                 </div>
-                <div className={`space-y-4 px-4 mt-16 py- bg-brandPrimary ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
+                <ul className={`space-y-4 px-4 mt-16 py- bg-brandPrimary ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
                     {navItems.map(({ link, path, url }) => (
                         <li key={path}>
                             {url ? (
-                                <a href={url} className='block text-base text-gray-900 hover:text-brandPrimary first:font-medium'>
+                                <a href={url} className='block text-base text-neutralSilver my-5 first:font-medium'>
                                     {link}
                                 </a>
                             ) : (
@@ -79,7 +79,7 @@ export const Navbar = () => {
                             )}
                         </li>
                     ))}
-                </div>
+                </ul>
             </nav>
         </header>
     );
