@@ -4,7 +4,7 @@ import Slide from "../../assets/images/slide_9.jpg";
 import Autoplay from 'embla-carousel-autoplay';
 import { Navbar } from '../../components/Navbar/page';
 import { Footer } from '../../components/Footer/page';
-import { Mission } from '../../components/Mission/page';
+// import { Mission } from '../../components/Mission/page';
 import { Services } from '../../components/Services/page';
 
 export function EmblaCarousel() {
@@ -17,7 +17,7 @@ export function EmblaCarousel() {
         <img src={Slide} alt="landing image" className='w-full h-auto max-h-screen object-cover' />
       </div>
 
-      <Mission />
+      {/* <Mission /> */}
       <Services />
       <Footer />
     </div>
