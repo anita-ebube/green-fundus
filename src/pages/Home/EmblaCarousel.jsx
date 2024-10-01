@@ -1,7 +1,6 @@
 import React from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Home from '../../assets/images/home2.jpeg'
-// import Home from "./images/home.jpg";
 import Slide2 from "../../assets/images/gallery/slide_3.jpg";
 import Slide3 from "../../assets/images/gallery/slide_4.jpg";
 import Slide from "../../assets/images/home2.jpeg";
@@ -15,7 +14,7 @@ export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
 
   return (
-    <>
+    <div>
     <Navbar/>
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
@@ -33,7 +32,7 @@ export function EmblaCarousel() {
     <Mission />
     <Services />
     <Footer />
-    </>
+    </div>
   );
 }
 
