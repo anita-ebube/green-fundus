@@ -11,7 +11,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<EmblaCarousel />} />
-        <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/product" element={<Product />} />
         {/* Add footer or other components as needed */}

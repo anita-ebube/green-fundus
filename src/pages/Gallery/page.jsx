@@ -1,20 +1,17 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import SlideImg2 from '../../assets/images/gallery/slide_1.jpg';
 import SlideImg1 from '../../assets/images/gallery/slide_2.jpg';
-import SlideImg3 from '../../assets/images/gallery/slide_3.jpg';
 import SlideImg4 from '../../assets/images/gallery/slide_4.jpg';
 import SlideImg5 from '../../assets/images/gallery/slide_5.jpg';
 import SlideImg7 from '../../assets/images/gallery/slide_7.jpg';
 import SlideImg8 from '../../assets/images/gallery/slide_8.jpg';
 import SlideImg9 from '../../assets/images/gallery/slide_9.jpg';
 import SlideImg10 from '../../assets/images/gallery/slide_10.jpg';
-import { Navbar } from '../../components/Navbar/page';
-import { Footer } from '../../components/Footer/page';
+import SlideImg11 from '../../assets/images/gallery/slide_11.jpg';
+import SlideImg12 from '../../assets/images/gallery/slide_12.jpg';
+import SlideImg13 from '../../assets/images/gallery/slide_13.jpg';
+import SlideImg14 from '../../assets/images/gallery/slide_14.jpg';
+import SlideImg15 from '../../assets/images/gallery/slide_15.jpg';
+import { Layout } from '../../components/Layout/page';
 export const Gallery = () => {
     const images = [
         {
@@ -29,7 +26,7 @@ export const Gallery = () => {
         },
         {
             id: 3,
-            image:SlideImg5
+            image: SlideImg5
 
         },
         {
@@ -46,22 +43,72 @@ export const Gallery = () => {
             id: 6,
             image: SlideImg7
 
+        },
+        {
+            id: 7,
+            image: SlideImg8
+
+        },
+        {
+            id: 8,
+            image: SlideImg9
+
+        },
+
+        {
+            id: 10,
+            image: SlideImg10
+
+        },
+
+        {
+            id: 13,
+            image: SlideImg12
+
         }
+        ,
+        {
+            id: 14,
+            image: SlideImg14
+
+        }
+        ,
+
+        {
+            id: 15,
+            image: SlideImg15
+
+        },
+        {
+            id: 11,
+            image: SlideImg11
+
+        }
+        ,
+
+        {
+            id: 12,
+            image: SlideImg13
+
+        }
+        ,
+
+        
+
     ]
 
     return (
-        <div id='gallery'>
-            <Navbar />
-            <div className="lg:mt-[100px]">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
-                    {images.map(({ id, image }) => (
-                        <div key={id} className="overflow-hidden rounded-lg shadow-md">
-                            <img src={image} alt={`Gallery Image ${id}`} className="w-full h-auto" />
-                        </div>
-                    ))}
-                </div>
+        <Layout>
+            <div className='bg-brandPrimary h-[150px] lg:h-[200px]'>
+                <h2 className='text-white lg:text-4xl sm:text-3xl flex justify-center items-center pt-24 lg:pt-28'>Welcome to Our Gallery</h2>
             </div>
-            <Footer className='bottom-0 top-0' />
-        </div>
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 mt-10 mb-52">
+                {images.map(({ id, image }) => (
+                    <div key={id} className="overflow-hidden rounded-lg shadow-md">
+                        <img src={image} alt={`Gallery Image ${id}`} className="w-full h-auto" />
+                    </div>
+                ))}
+            </div>
+        </Layout>
     );
 };
