@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Slide from "../../assets/images/slide_9.jpg";
 import Autoplay from 'embla-carousel-autoplay';
-import Mission from '../../components/Mission/page'
+// import Mission from '../../components/Mission/page'
 // import { Mission } from '../../components/Mission/page';
 import { Services } from '../../components/Services/page';
 import { Values } from '../../components/Values/page';
 import { Layout } from '../../components/Layout/page';
+import { Vision } from '../../components/Vision/page';
 
 export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
@@ -36,7 +37,8 @@ export function EmblaCarousel() {
           </button>
         </div>
       </div>
-      <Mission />
+      <Vision />
+      {/* <Mission /> */}
       <Values />
       <Services />
     </Layout>
