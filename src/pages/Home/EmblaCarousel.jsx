@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Slide from "../../assets/images/slide_9.jpg";
 import Autoplay from 'embla-carousel-autoplay';
-// import Mission from '../../components/Mission/page'
-// import { Mission } from '../../components/Mission/page';
 import { Services } from '../../components/Services/page';
 import { Values } from '../../components/Values/page';
 import { Layout } from '../../components/Layout/page';
@@ -38,7 +36,6 @@ export function EmblaCarousel() {
         </div>
       </div>
       <Vision />
-      {/* <Mission /> */}
       <Values />
       <Services />
     </Layout>
