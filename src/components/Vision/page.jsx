@@ -1,4 +1,6 @@
 import React from 'react'
+import MissionImg from '../../assets/images/icon/mission.png'
+import VisionImg from '../../assets/images/icon/vision.png'
 
 export const Vision = () => {
     const services = [
@@ -12,7 +14,7 @@ export const Vision = () => {
             id: 2,
             title: "Vision",
             description: "Empower marginalized farmers through innovative sustainable agriculture and water management solutions",
-            image: Vision
+            image: VisionImg
         },
 
     ]
