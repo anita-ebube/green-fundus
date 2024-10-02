@@ -20,9 +20,9 @@ export const Vision = () => {
     ]
     return (
         <div>
-            <div id="vision" className='md:px-14 px-4 py-16 max-w-screen-2xl mx-auto mt-28'>
+            <div id="vision" className='md:px-14 px-4 l max-w-screen-2xl mx-auto '>
 
-                <div className='lg:mt-14 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-1'>
+                <div className='mt-14 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-1'>
                     {services.map(service => (
                         <div key={service.id} className='px-4 py-8 text-center md:w-[300px] mx-auto md:h-30 rounded-md shadow cursor-pointer hover:translate-y-5 hover:border-b-4 hover:border-brandPrimary transition-all duration-300 flex items-center justify-center h-full'>
                             <div>

@@ -7,12 +7,12 @@ export const Footer = () => {
                 <div class="mx-auto w-full max-w-screen-xl p-4 py-3 lg:py-5">
                     <div class="md:flex md:justify-between">
                         <div class="mb-6 md:mb-0">
-                            <a href="#navbar" class="flex items-center">
+                            <a href="/" class="flex items-center">
                                 <img src={Logo} class="h-10 me-3" alt="GreenFundus Logo" />
                             </a>
                         </div>
                         <div class="sm:flex sm:items-center sm:justify-between">
-                            <span class="text-sm text-neutralSilver sm:text-center ">© 2024 <a href="https://flowbite.com/" class="hover:underline">GREENFUNDUS™</a>. All Rights Reserved.
+                            <span class="text-sm text-neutralSilver sm:text-center ">© 2024 <a href="/" class="hover:underline">GREENFUNDUS™</a>. All Rights Reserved.
                             </span>
 
                         </div>
