@@ -6,7 +6,7 @@ import Sanitation from "../../assets/images/sanitation.jpg";
 export const Services = () => {
     return (
         <div id='services'>
-            <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto lg:my-10 lg:mb-40'>
+            <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto lg:my-10 lg:mb-40 mb-48'>
                 <h4 className='text-4xl text-neutralGrey font-semibold text-center mt-20 mb-10 lg:my-20'>Our Services</h4>
                
                 <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-start items-start gap-12'>

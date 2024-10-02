@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Slide from "../../assets/images/slide_9.jpg";
 import Autoplay from 'embla-carousel-autoplay';
-import { Mission } from '../../components/Mission/page';
+// import { Mission } from '../../components/Mission/page';
 import { Services } from '../../components/Services/page';
 import { Values } from '../../components/Values/page';
 import { Layout } from '../../components/Layout/page';
@@ -19,12 +19,11 @@ export function EmblaCarousel() {
     <Layout>
       <div className='relative'>
         <img src={Slide} alt="landing image" className='w-full h-auto max-h-screen object-cover' />
-        
-        <div className='absolute inset-0 flex flex-col justify-center items-center text-center space-y-4'>
+
+        <div className='absolute inset-0 flex flex-col justify-center items-center text-center lg:space-y-4 space-y-2'>
           <h2
-            className={`lg:text-6xl text-2xl text-white font-bold transition-opacity duration-1000 ease-in-out ${
-              loaded ? 'opacity-100' : 'opacity-0'
-            }`}
+            className={` pt-10 lg:text-6xl text-2xl text-white font-bold transition-opacity duration-1000 ease-in-out ${loaded ? 'opacity-100' : 'opacity-0'
+              }`}
           >
             WELCOME TO GREENFUNDUS
           </h2>
@@ -36,7 +35,7 @@ export function EmblaCarousel() {
           </button>
         </div>
       </div>
-      <Mission />
+      {/* <Mission /> */}
       <Values />
       <Services />
     </Layout>
