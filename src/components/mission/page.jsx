@@ -1,7 +1,9 @@
 import React from 'react'
 import MissionImg from "../../assets/images/icon/mission.png"
 import Vision from "../../assets/images/icon/vision.png"
-export const Mission = () => {
+
+
+ const Mission = () => {
     const services = [
         {
             id: 1,
@@ -16,8 +18,8 @@ export const Mission = () => {
             image: Vision
         },
 
-
     ]
+    
     return (
         <div id="vision" className='md:px-14 px-4 py-16 max-w-screen-2xl mx-auto mt-28'>
 
@@ -38,4 +40,7 @@ export const Mission = () => {
 
         </div>
     )
+  
 }
+
+export default Mission;
