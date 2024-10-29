@@ -31,7 +31,7 @@ export const Navbar = () => {
         { link: "Home", path: "home", url: "/" },
         // { link: "About Us", path: "about", url: "" },
         { link: "Gallery", path: "gallery", url: "/gallery" },
-        { link: "Product", path: "product", url: "/product" },
+        { link: "Products", path: "product", url: "/product" },
     ];
 
     return (

@@ -27,11 +27,9 @@ export function EmblaCarousel() {
           >
             WELCOME TO GREENFUNDUS
           </h2>
-          <p className='text-white lg:text-lg text-sm'>
-            Lorem ipsum dolor sit amet consectetur?
-          </p>
+          
           <button className='bg-brandPrimary text-white py-3 px-4 rounded hover:bg-brandPrimary transition'>
-            <a href="/">Know more about us</a>
+            <a href="/product">Know more about us</a>
           </button>
         </div>
       </div>
