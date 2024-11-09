@@ -19,6 +19,7 @@ export const Product = () => {
           <p className='text-base leading-relaxed text-neutralGrey mb-8'>
             The Pay-As-You-Go Microinsurance Platform helps farmers protect their animals by adding small insurance fees when they buy feed or medicine. They can use a phone app to track payments, make claims if needed, and even improve their credit score.
           </p>
+          <button className='bg-brandPrimary px-5 py-3 rounded-sm text-neutralSilver hover:bg-[#448847]'><a href="https://pay-go-gamma.vercel.app/">Know More</a></button>
         </div>
 
         {/* Image section */}

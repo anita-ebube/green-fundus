@@ -29,7 +29,7 @@ export const Navbar = () => {
 
     const navItems = [
         { link: "Home", path: "home", url: "/" },
-        // { link: "About Us", path: "about", url: "" },
+        { link: "About Us", path: "about", url: "/about" },
         { link: "Gallery", path: "gallery", url: "/gallery" },
         { link: "Products", path: "product", url: "/product" },
     ];
