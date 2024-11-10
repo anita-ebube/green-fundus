@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from "../../assets/images/logo-footer.png"
 export const Footer = () => {
     return (
-        <div className='relative'>
+        <div className='relative mt-20'>
             <footer class="bg-brandPrimary dark:bg-brandPrimary mt-20 absolute bottom-0 w-full">
                 <div class="mx-auto w-full max-w-screen-xl p-4 py-3 lg:py-5">
                     <div class="md:flex md:justify-between">
