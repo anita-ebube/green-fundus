@@ -17,7 +17,7 @@ const teamData = [
         name: 'Musa Tanko',
         position: 'COO/Co-founder',
         photoUrl: Musa,
-        details: 'Musa Tanko is a dynamic veterinary medicine expert and food systems specialist with over 11 years of experience in the livestock industry. As a recognized livestock development leader, he has spearheaded impactful projects like the Advancing Local Dairy Development in Nigeria (ALDDN), Cattle Fertility Awareness Project, and GSMA mobile connectivity initiatives, driving significant improvements in animal health and rural livelihoods. Musa is also the founder of Veticare Consult, a point-of-care veterinary consultancy committed to enhancing livestock health and productivity. An award-winning professional, he is a Tony Elumelu Foundation Alumnus, a Youth Enterprise With Innovation in Nigeria (YouWiN!) awardee, and a proud co-recipient of the Arrell Food Institute Community Development Award.'
+        details: 'Musa Tanko is a seasoned veterinarian and food systems specialist with over 11 years of experience in the livestock industry. As a recognized livestock development leader, he has spearheaded impactful projects like the Advancing Local Dairy Development in Nigeria (ALDDN), Cattle Fertility Awareness Project, and GSMA mobile connectivity initiatives, driving significant improvements in animal health and rural livelihoods. Musa is also the founder of Veticare Consult, a point-of-care veterinary consultancy committed to enhancing livestock health and productivity. An award-winning professional, he is a Tony Elumelu Foundation Alumnus, a Youth Enterprise With Innovation in Nigeria (YouWiN!) awardee, and a proud co-recipient of the Arrell Food Institute Community Development Award.'
     },
     {
         id: 3,
