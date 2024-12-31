@@ -37,7 +37,7 @@ const teamData = [
     {
         id: 5,
         name: 'Kazuga Samuel',
-        position: 'Project Manager',
+        position: 'Chief Technical Officer ',
         photoUrl: Samuel,
         details: 'Kazuga Samuel is a seasoned IT Project manager with over 8 years of industry experience, Kazuga started his early career as an IT support intern with Federal Ministry of Justice and eventually went to the banking and finance industry as an IT manager. Over the years Kazuga transitioned into IT Project management where he is currently setting the pace in the IT industry, Kazugas experiences ranges from the banking industry, health sector and the Nigerian agriculture  industry where he has made giant stride'
     },
