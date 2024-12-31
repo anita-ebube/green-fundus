@@ -24,7 +24,7 @@ const teamData = [
         id: 3,
         name: 'Philip Charles',
         position: 'Chief Compliance Officer | GIS Analyst | Data Scientist | Python Developer | Cybersecurity Analyst',
-        
+        photoUrl: Philip,
         details: 'Philip Charles has extensive experience across geospatial analysis, data science, and cybersecurity, I specialize in integrating technology-driven solutions to tackle complex challenges. My expertise spans GIS development, spatial data visualization, remote sensing, and Python programming, Machine Learning coupled with a deep understanding of network security and disaster risk management.I’ve successfully led projects involving crime mapping, oil spill monitoring, and farmland mapping, utilizing advanced tools like Google Earth Engine, GIS, and machine learning algorithms. My commitment to innovation and detail ensures impactful results, from optimizing emergency response times to securing sensitive data systems.Driven by a passion for data-driven insights and scalable solutions, I aim to empower organizations with actionable intelligence for strategic decision-making.'
     },
     {
