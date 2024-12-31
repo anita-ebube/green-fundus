@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import teamData from '../../components/dummyData';
 import { Layout } from '../../components/Layout/page';
 

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import AboutImg from "../../assets/images/about.png";
 
 export const About = () => {
